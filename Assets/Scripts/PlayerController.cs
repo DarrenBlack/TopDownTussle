@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         myRigidBody = GetComponent<Rigidbody>();
-        mainCamera = Camera.main;
+        mainCamera = Camera.main;        
     }
     
     void Update()

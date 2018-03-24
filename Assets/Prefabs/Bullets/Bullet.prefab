@@ -22,7 +22,7 @@ GameObject:
   - 33: {fileID: 33000010731455026}
   - 65: {fileID: 65000010562376354}
   - 23: {fileID: 23000011868281080}
-  - 114: {fileID: 114000010329346428}
+  - 114: {fileID: 114000010961113182}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -91,7 +91,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114000010329346428
+--- !u!114 &114000010961113182
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -99,7 +99,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000013214899220}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a99a83aa66fb62e4382a304e623f4490, type: 3}
+  m_Script: {fileID: 11500000, guid: ec5aa041af6e82a4e9dcd7df25ddb7bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  maxDamage: 10
+  speed: 25
+  lifetime: 5
